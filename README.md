@@ -38,5 +38,6 @@ This project allows users to view data such as current date, time, system langua
 ```bash
 git clone https://github.com/jomarferreira/system-info-viewer.git
 cd system-info-viewer
-javac configuracoes/Configuracoes.java
-java configuracoes.Configuracoes
+javac configuracoes/SystemInfoViewer.java
+java configuracoes.SystemInfoViewer
+```
