@@ -30,7 +30,9 @@ This project allows users to view data such as current date, time, system langua
 ---
 
 ## 📦 Pré-requisitos | Requirements
-- Java JDK 8 ou superior  
+- Java JDK 8 ou superior | Java JDK 8 or higher
+  👉 Download (Oracle oficial | Official Oracle): https://www.oracle.com/java/technologies/downloads/
+> ℹ️ Pode ser necessário criar uma conta Oracle para download.
 
 ---
 
