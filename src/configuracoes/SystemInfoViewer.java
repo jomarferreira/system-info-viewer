@@ -12,7 +12,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-public class Configuracoes extends javax.swing.JFrame {
+public class SystemInfoViewer extends javax.swing.JFrame {
     Date relogio = new Date (); //Construtor para data e hora
     DateFormat data = new SimpleDateFormat("dd/MM/yyyy"); //Pegar data
     DateFormat hora = new SimpleDateFormat("HH:mm:ss");  //Pegar hora
@@ -21,7 +21,7 @@ public class Configuracoes extends javax.swing.JFrame {
     int largura = (int) resolucao.getWidth(); //Pegar largura
     int altura = (int) resolucao.getHeight(); //Pegar altura
     
-    public Configuracoes() {
+    public SystemInfoViewer() {
         initComponents();
     }
     
@@ -181,10 +181,10 @@ public class Configuracoes extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException | InstantiationException | IllegalAccessException | javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Configuracoes.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(SystemInfoViewer.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         java.awt.EventQueue.invokeLater(() -> {
-            new Configuracoes().setVisible(true);
+            new SystemInfoViewer().setVisible(true);
         });
     }
 
