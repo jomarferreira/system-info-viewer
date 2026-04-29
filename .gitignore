@@ -22,3 +22,8 @@ $RECYCLE.BIN/
 
 #​ Windows shortcuts
 *.lnk
+
+# Build artifacts (Java)
+dist/
+*.jar
+*.class
